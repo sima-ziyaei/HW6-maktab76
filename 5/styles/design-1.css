@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow:hidden ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    box-sizing:border-box;
+}
+
+
+.wrapper{
+    position: relative;
+    width: 100%;
+    height: 624px;
+    background-color: rgb(237,238,240);
+    z-index: 0;
+}
+
+.container{
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 60%;
+    top: 30%;
+    transform: translate(-50%,-30%);
+    left:50%;
+
+
+
+}
+.sign{
+    background: linear-gradient(to top, #13131487, #13131487), url("/5/assets/photo1651337607.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 253px;
+    text-align: center;
+    padding-top: 110px;
+    box-sizing: border-box;
+    color: white;
+    font-size: larger;
+}
+.put{
+    border: none;
+    border-bottom: 1px solid rgb(125, 120, 120);
+    height: 31px;
+   width: 504px;
+   
+}
+.form{
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    padding-left: 60px;
+    padding-right: 46px;
+    box-sizing: border-box;
+    color: rgb(125, 120, 120);
+    text-align: center;
+    
+}
+.form label{
+    margin-right: 20px;
+}
+input::placeholder{
+    color:  rgb(151, 145, 145);
+    font-size: 13px;
+}
+.remember{
+    padding-left: 144px;
+    text-align: left;
+}
+.check{
+    
+    width: 17px;
+    height: 17px;
+}
+input.checkbox{
+    box-sizing: 20px;
+
+}
+.forget{
+    text-align: left;
+    padding-left: 239px; 
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: rgb(125, 120, 120);
+}
+.login{
+    border-radius: 30px;
+    background-color: rgb(110,182,83);
+    width: 164px;
+    height: 40px;
+    font-size: 17px;
+    border: none;
+    color: white;
+    position: fixed;
+    right: 450px;
+    
+}
